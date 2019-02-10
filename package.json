@@ -1,0 +1,24 @@
+{
+  "name": "anyread-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "no tests yet",
+    "start": "nodemon index.js"
+  },
+  "author": "Malu Decks",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "install": "^0.12.2",
+    "jsdom": "^13.2.0",
+    "npm": "^6.7.0",
+    "readability": "git+ssh://git@github.com/mozilla/readability.git",
+    "request-promise-native": "^1.0.5",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

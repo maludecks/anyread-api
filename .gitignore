@@ -1,0 +1,12 @@
+# vendor
+node_modules
+package-lock.json
+yarn.lock
+
+# IDE
+.idea
+.idea/*
+
+# logs
+logs/
+logs/*
