@@ -2,10 +2,10 @@
   "name": "anyread-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "no tests yet",
-    "start": "nodemon index.js"
+    "test": "jest",
+    "start": "nodemon server.js"
   },
   "author": "Malu Decks",
   "license": "ISC",
@@ -19,6 +19,10 @@
     "winston": "^3.2.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.10"
+    "jest": "^24.1.0",
+    "nodemon": "^1.18.10",
+    "spy": "^1.0.0",
+    "superagent": "^4.1.0",
+    "supertest": "^3.4.2"
   }
 }

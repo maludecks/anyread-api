@@ -2,6 +2,7 @@
 const Readability = require('readability');
 const JSDOM = require('jsdom').JSDOM;
 const logger = require('../utils/logger');
+const errors = require('request-promise-native/errors');
 
 const parserRepository = require('../repositories/parserRepository');
 
@@ -11,18 +12,10 @@ exports.parseUrl = async function(req, res) {
   if (!query || !query.url) {
     const err = 'No URL provided';
     logger.log(err, 'debug');
-    res.status(400);
-    res.send(err);
+    return res.status(400).send(err);
   }
 
   const url = query.url;
-
-  if (url === '') {
-    const err = 'URL is empty';
-    logger.log(err, 'debug');
-    res.status(400);
-    res.send(err);
-  }
 
   try {
     const urlContent = await parserRepository.getUrlContent(url);
@@ -33,10 +26,16 @@ exports.parseUrl = async function(req, res) {
       article: parsedContent
     };
 
-    res.status(200);
-    res.send(response);
+    return res.status(200).send(response);
   } catch(e) {
     logger.log(e.stack, 'debug');
-    throw e;
+
+    if (e instanceof errors.RequestError) {
+      if (e.message.includes('Invalid URI')) {
+        return res.status(404).send('URL provided is not a valid URL');
+      }
+    }
+
+    return res.status(500).send('Could not parse the URL provided');
   }
 }
