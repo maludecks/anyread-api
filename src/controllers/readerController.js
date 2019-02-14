@@ -1,9 +1,8 @@
 'use strict';
 const Readability = require('readability');
 const JSDOM = require('jsdom').JSDOM;
-const logger = require('../utils/logger');
+const logger = require('../../utils/logger');
 const errors = require('request-promise-native/errors');
-
 const parserRepository = require('../repositories/parserRepository');
 
 exports.parseUrl = async function(req, res) {

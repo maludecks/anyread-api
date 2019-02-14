@@ -1,7 +1,6 @@
 const request = require('supertest');
-const app = require('../../app');
-const parserRepository = require('../../repositories/parserRepository');
-
+const app = require('../src/app');
+const parserRepository = require('../src/repositories/parserRepository');
 
 const agent = request.agent(app);
 
