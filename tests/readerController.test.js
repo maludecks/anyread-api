@@ -1,6 +1,10 @@
 const request = require('supertest');
 const app = require('../src/app');
 const parserRepository = require('../src/repositories/parserRepository');
+const logger = require('../utils/logger');
+
+const requestFixture = require('./fixtures/requestFixture');
+const responseFixture = require('./fixtures/responseFixture');
 
 const agent = request.agent(app);
 
@@ -34,5 +38,14 @@ describe('readerController', () => {
 
     expect(response.statusCode).toBe(500);
     expect(response.text).toBe('Could not parse the URL provided');
+  });
+
+  test('should return 200 with parsed article when successfully parsed', async () => {
+    jest.spyOn(parserRepository, 'getUrlContent').mockReturnValue(requestFixture);
+
+    const response = await agent.get('/parse').query({ url: 'http://google.com' });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.body).toEqual(responseFixture);
   });
 });
