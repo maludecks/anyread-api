@@ -8,7 +8,8 @@ const responseJson = {
     length: 261,
     excerpt: 'This is the excerpt',
     siteName: 'Website name'
-  }
+  },
+  success: true
 };
 
 module.exports = responseJson;

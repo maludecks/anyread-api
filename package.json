@@ -1,14 +1,43 @@
 {
-  "name": "anyread-api",
+  "name": "anyread-api.js",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
+    "lint": "eslint . --ext .js",
     "test": "jest",
     "start": "nodemon server.js"
   },
   "author": "Malu Decks",
   "license": "ISC",
+  "eslintConfig": {
+    "root": true,
+    "extends": "airbnb-base",
+    "env": {
+      "es6": true,
+      "browser": true
+    },
+    "rules": {
+      "brace-style": [
+        "error",
+        "stroustrup"
+      ],
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "no-unused-vars": [
+        "warn"
+      ],
+      "no-var": [
+        "off"
+      ],
+      "one-var": [
+        "off"
+      ],
+      "no-console": "off"
+    }
+  },
   "dependencies": {
     "express": "^4.16.4",
     "install": "^0.12.2",
@@ -21,6 +50,9 @@
     "winston": "^3.2.1"
   },
   "devDependencies": {
+    "eslint": "^5.14.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
     "jest": "^24.1.0",
     "spy": "^1.0.0",
     "superagent": "^4.1.0",

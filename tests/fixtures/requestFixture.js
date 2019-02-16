@@ -1,5 +1,4 @@
-const requestHtml = `
-<!DOCTYPE html>
+const requestHtml = `<!DOCTYPE html>
 <html>
 <head>
   <meta property="og:site_name" content="Website name" />
@@ -7,7 +6,7 @@ const requestHtml = `
   <meta name="title" content="This is the title">
   <meta name="description" content="This is the excerpt">
 
-	<title>This is the title</title>
+  <title>This is the title</title>
 </head>
 <body>
   <h1>Article title</h1>

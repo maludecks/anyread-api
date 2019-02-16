@@ -1,4 +1,4 @@
-'use strict';
+
 const { createLogger, format, transports } = require('winston');
 const fs = require('fs');
 const path = require('path');
@@ -25,8 +25,8 @@ const logger = createLogger({
 });
 
 
-exports.log = function(message, type) {
-  switch(type) {
+exports.log = (message, type) => {
+  switch (type) {
     case 'debug':
       logger.debug(message);
       break;
@@ -37,4 +37,4 @@ exports.log = function(message, type) {
       logger.error(message);
       break;
   }
-}
+};
