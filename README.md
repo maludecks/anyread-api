@@ -2,6 +2,8 @@
 
 Node.js API that returns only the reading content of the informed url, using [mozilla/readability](https://github.com/mozilla/readability) library to parse it. Check the [demo version here](https://anyread-api.herokuapp.com).
 
+[![Build Status](https://travis-ci.org/maludecks/anyread-api.js.svg?branch=master)](https://travis-ci.org/maludecks/anyread-api.js)
+
 ## installing
 To run this API locally you need [Node.js](https://nodejs.org/en/) and [yarn](https://yarnpkg.com/en/) installed.
 
