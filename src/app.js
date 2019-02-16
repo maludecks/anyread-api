@@ -3,7 +3,7 @@ const readerController = require('./controllers/readerController');
 
 const app = express();
 
-app.get('/', function(req, res){
+app.get('/', (req, res) => {
   res.sendfile('index.html');
 });
 
