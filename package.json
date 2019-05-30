@@ -39,7 +39,7 @@
     }
   },
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "install": "^0.12.2",
     "jsdom": "^13.2.0",
     "nodemon": "^1.18.10",
