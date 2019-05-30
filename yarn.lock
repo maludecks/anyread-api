@@ -4872,7 +4872,8 @@ read@1, read@~1.0.1, read@~1.0.7:
 
 "readability@https://github.com/mozilla/readability":
   version "0.2.0"
-  resolved "https://github.com/mozilla/readability#d41de78c2664191f51d0b8215ce62b7f3cc002ee"
+  uid "9092b2a29c6ad3ce7f9a9e1e4e3ee74a56abd304"
+  resolved "https://github.com/mozilla/readability#9092b2a29c6ad3ce7f9a9e1e4e3ee74a56abd304"
 
 "readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.5, readable-stream@^2.3.6, readable-stream@~2.3.6:
   version "2.3.6"
