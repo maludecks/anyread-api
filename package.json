@@ -55,7 +55,7 @@
     "eslint-plugin-import": "^2.17.3",
     "jest": "^24.8.0",
     "spy": "^1.0.0",
-    "superagent": "^4.1.0",
+    "superagent": "^5.0.5",
     "supertest": "^4.0.2"
   }
 }
