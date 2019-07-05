@@ -39,6 +39,7 @@
     }
   },
   "dependencies": {
+    "@sentry/node": "5.4.3",
     "express": "^4.17.1",
     "install": "^0.13.0",
     "jsdom": "^15.1.1",
