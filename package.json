@@ -42,7 +42,7 @@
     "express": "^4.17.1",
     "install": "^0.13.0",
     "jsdom": "^15.1.1",
-    "nodemon": "^1.19.1",
+    "nodemon": "^1.19.2",
     "npm": "^6.10.1",
     "readability": "https://github.com/mozilla/readability",
     "request-promise-native": "^1.0.7",
