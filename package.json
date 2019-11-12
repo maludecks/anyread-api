@@ -45,7 +45,7 @@
     "nodemon": "^1.19.4",
     "npm": "^6.13.0",
     "readability": "https://github.com/mozilla/readability",
-    "request-promise-native": "^1.0.7",
+    "request-promise-native": "^1.0.8",
     "whatwg-encoding": "^1.0.5",
     "winston": "^3.2.1"
   },
