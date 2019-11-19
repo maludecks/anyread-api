@@ -38,6 +38,9 @@
       "no-console": "off"
     }
   },
+  "engines": {
+    "node": ">= 11.10.1"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "install": "^0.13.0",
