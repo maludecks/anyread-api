@@ -44,7 +44,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "install": "^0.13.0",
-    "jsdom": "^15.2.1",
+    "jsdom": "^16.0.0",
     "nodemon": "^2.0.1",
     "npm": "^6.13.2",
     "readability": "https://github.com/mozilla/readability",
