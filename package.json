@@ -46,7 +46,7 @@
     "install": "^0.13.0",
     "jsdom": "^16.0.1",
     "nodemon": "^2.0.2",
-    "npm": "^6.13.4",
+    "npm": "^6.13.6",
     "readability": "https://github.com/mozilla/readability",
     "request-promise-native": "^1.0.8",
     "whatwg-encoding": "^1.0.5",
