@@ -45,7 +45,7 @@
     "express": "^4.17.1",
     "install": "^0.13.0",
     "jsdom": "^16.2.2",
-    "nodemon": "^2.0.2",
+    "nodemon": "^2.0.3",
     "npm": "^6.14.5",
     "readability": "https://github.com/mozilla/readability",
     "request-promise-native": "^1.0.8",
@@ -55,7 +55,7 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-import": "^2.20.2",
     "jest": "^26.0.1",
     "spy": "^1.0.0",
     "superagent": "^5.2.2",
