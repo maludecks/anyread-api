@@ -55,7 +55,7 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-import": "^2.22.1",
     "jest": "^26.4.2",
     "spy": "^1.0.0",
     "superagent": "^6.1.0",
