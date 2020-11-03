@@ -5789,9 +5789,9 @@ read@1, read@~1.0.1, read@~1.0.7:
     mute-stream "~0.0.4"
 
 "readability@https://github.com/mozilla/readability":
-  version "0.2.0"
-  uid "52ab9b5c8916c306a47b2119270dcdabebf9d203"
-  resolved "https://github.com/mozilla/readability#52ab9b5c8916c306a47b2119270dcdabebf9d203"
+  version "0.3.0"
+  uid "22cff054fbb8d1f33491443aa9a95fc1159b8608"
+  resolved "https://github.com/mozilla/readability#22cff054fbb8d1f33491443aa9a95fc1159b8608"
 
 "readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.6, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.6, readable-stream@^2.3.7, readable-stream@~2.3.6:
   version "2.3.7"
