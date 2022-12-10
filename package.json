@@ -42,7 +42,7 @@
     "node": ">= 11.10.1"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "install": "^0.13.0",
     "jsdom": "^16.4.0",
     "nodemon": "^2.0.6",
